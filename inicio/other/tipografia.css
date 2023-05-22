@@ -1,0 +1,26 @@
+/*Tipografía*/
+@font-face{
+    Font-family: Hauora;
+    src: url(fuentes/Hauora-Regular.woff2) format ("woff2");
+        Font-weight: 400;
+        Font-style: normal;
+}
+@font-face{
+    Font-family: Hauora;
+    src: url(fuentes/Hauora-Medium.woff2) format ("woff2");
+        Font-weight: 500;
+        Font-style: normal;
+}
+
+@font-face{
+    Font-family: Hauora;
+    src: url(fuentes/Hauora-SemiBold.woff2) format ("woff2");
+        Font-weight: 600;
+        Font-style: normal;
+}
+@font-face{
+    Font-family: Hauora;
+    src: url(fuentes/Hauora-Bolod.woff2) format ("woff2");
+        Font-weight: 700;
+        Font-style: normal;
+}

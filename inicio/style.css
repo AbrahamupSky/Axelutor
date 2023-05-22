@@ -1,0 +1,169 @@
+.main_card{
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+}
+
+.card1{
+  display: flex;
+  flex-direction: column;
+  
+  margin: 16px 8px 8px 0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+.card2{
+  display: flex;
+  flex-direction: column;
+
+  margin: 16px 8px 8px 0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+.card3{
+  display: flex;
+  flex-direction: column;
+  
+  margin: 16px 8px 8px 0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+.card4{
+  display: flex;
+  flex-direction: column;
+
+  margin: 16px 8px 8px 0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+.card1:hover{
+  cursor: pointer;
+}
+.card2:hover{
+  cursor: pointer;
+}
+.card3:hover{
+  cursor: pointer;
+}
+.card4:hover{
+  cursor: pointer;
+}
+
+h2{
+  text-align: center;
+}
+
+.sport{
+  color: #F2A71C;
+}
+
+.vestidos{
+  color: #F6B1B8;
+}
+
+.casual{
+  color: #33B9BC;
+}
+
+.party{
+  color: #7D5E94;
+}
+
+.man-card{
+  display: flex;
+  flex-direction: column;
+  margin: 8px 8px;
+  border-radius: 3px;
+}
+
+.man{
+  display: flex;
+  justify-content: center;
+}
+
+.body-man{
+  display: flex;
+  justify-content: center;
+}
+
+.card-man1{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+.card-man2{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+.card-man3{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 600px){
+  *{
+    transition: 0.3s;
+  }
+
+  .main_card{
+    display: flex;
+  }
+  
+  .cards{
+    flex-direction: column;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card1{
+    position: relative;
+    right: 120px;
+  }
+  .card2{
+    position: relative;
+    left: 120px;
+    bottom: 412px;
+  }
+  .card3{
+    position: relative;
+    right: 120px;
+    bottom: 412px;
+  }
+  .card4{
+    position: relative;
+    left: 120px;
+    bottom: 824px;
+  }
+
+  .man-card{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .man{
+    margin-top: -850px;
+  }
+  
+  .body-man{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-man1{
+    margin-bottom: 10px;
+  }
+  .card-man2{
+    margin-bottom: 10px;
+    resize: horizontal;
+    overflow: auto;
+  }
+  
+}
